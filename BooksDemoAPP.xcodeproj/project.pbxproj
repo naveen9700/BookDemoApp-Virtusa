@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FF51A4B2B67AF8E00D6E07F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFFF3B2B663A7C008A0086 /* Constants.swift */; };
+		0FF51A4C2B67AFE300D6E07F /* BooksDemoAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECAA7E2B64CF89007DB82C /* BooksDemoAPPTests.swift */; };
 		1B11B1402B64D11D00861628 /* BooksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11B13E2B64D11D00861628 /* BooksCell.swift */; };
 		1B11B1412B64D11D00861628 /* BooksCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B11B13F2B64D11D00861628 /* BooksCell.xib */; };
 		1B11B1432B64D5A100861628 /* BooksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11B1422B64D5A100861628 /* BooksResponse.swift */; };
@@ -15,8 +17,6 @@
 		1B11B1492B64DAAA00861628 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11B1482B64DAAA00861628 /* APIManager.swift */; };
 		1B11B14A2B64DAAA00861628 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11B1482B64DAAA00861628 /* APIManager.swift */; };
 		1B11B1512B65031B00861628 /* BookDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11B1502B65031B00861628 /* BookDetailVC.swift */; };
-		1B11B1522B65031B00861628 /* BookDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11B1502B65031B00861628 /* BookDetailVC.swift */; };
-		1B11B1532B65031B00861628 /* BookDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11B1502B65031B00861628 /* BookDetailVC.swift */; };
 		1BDFFF352B663077008A0086 /* BookViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFFF342B663077008A0086 /* BookViewModelTests.swift */; };
 		1BDFFF362B66364F008A0086 /* BooksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11B1422B64D5A100861628 /* BooksResponse.swift */; };
 		1BDFFF3C2B663A7C008A0086 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFFF3B2B663A7C008A0086 /* Constants.swift */; };
@@ -28,7 +28,6 @@
 		1BECAA6F2B64CF86007DB82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BECAA6D2B64CF86007DB82C /* Main.storyboard */; };
 		1BECAA712B64CF89007DB82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BECAA702B64CF89007DB82C /* Assets.xcassets */; };
 		1BECAA742B64CF89007DB82C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BECAA722B64CF89007DB82C /* LaunchScreen.storyboard */; };
-		1BECAA7F2B64CF89007DB82C /* BooksDemoAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECAA7E2B64CF89007DB82C /* BooksDemoAPPTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -330,10 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B11B1522B65031B00861628 /* BookDetailVC.swift in Sources */,
-				1BECAA7F2B64CF89007DB82C /* BooksDemoAPPTests.swift in Sources */,
 				1BDFFF352B663077008A0086 /* BookViewModelTests.swift in Sources */,
 				1BDFFF362B66364F008A0086 /* BooksResponse.swift in Sources */,
+				0FF51A4B2B67AF8E00D6E07F /* Constants.swift in Sources */,
 				1B11B14A2B64DAAA00861628 /* APIManager.swift in Sources */,
 				1B11B1462B64D6A800861628 /* BookViewModel.swift in Sources */,
 			);
@@ -343,7 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B11B1532B65031B00861628 /* BookDetailVC.swift in Sources */,
+				0FF51A4C2B67AFE300D6E07F /* BooksDemoAPPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,8 +507,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,8 +534,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -561,7 +557,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4J6D66R8U5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.coinqa.BooksDemoAPPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -581,7 +577,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4J6D66R8U5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.coinqa.BooksDemoAPPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
