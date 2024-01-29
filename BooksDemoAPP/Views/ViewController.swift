@@ -24,7 +24,6 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-      
         self.navigationItem.title = "Books"
     }
    
@@ -44,8 +43,6 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         booksTableView.delegate = self
         booksTableView.register(UINib(nibName: "BooksCell", bundle: nil), forCellReuseIdentifier: "BooksCell")
     }
-  
-
 }
 
 

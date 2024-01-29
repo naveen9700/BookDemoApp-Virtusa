@@ -20,12 +20,12 @@ class APIManager {
                 return
             }
             // Debugging: Print the raw JSON data
-               if let jsonString = String(data: data, encoding: .utf8) {
-                   print("Raw JSON Data: \(jsonString)")
-               }
+//               if let jsonString = String(data: data, encoding: .utf8) {
+//                  // print("Raw JSON Data: \(jsonString)")
+//               }
             do {
                 let booksResponse = try JSONDecoder().decode(BooksResponse.self, from: data)
-                print(booksResponse)
+               // print(booksResponse)
                 completion(booksResponse)
             } catch {
                 completion(nil)
